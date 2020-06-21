@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+body{background: #e1edf4;}
+.enroll-student-wrapper{color:#6c6c6c; font-family: 'Roboto', sans-serif; position: relative;}
+ h2.heading-enroll{font-size: 20px; font-weight: 500; color:#565656; padding: 0 0 7px 0; margin: 0;}
+ .enroll-student-wrapper h4{color:#868686; font-weight: 400; font-size: 12px; text-transform: uppercase; padding: 0; margin: 0 0 25px 0;}
+.left-enroll-student { border-radius: 4px;   background-color: rgb(255, 255, 255);  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);float: left; width: 100%; padding: 30px 30px 20px 30px;}
+
+.left-enroll-student h3 {  font-size: 16px;  color:#00aeef;  font-weight: bold;  text-transform: uppercase; margin: 0; padding: 0 0 25px 0;}
+.left-enroll-student .form-wrapper{float: left; width: 100%; padding-bottom: 24px;}
+.left-enroll-student label{color:#5f5f5f; display: block; font-size: 15px; font-weight: 600; padding-bottom: 10px; margin-top: 10px;}
+select { background-color: white; border-width: 1px 1px 1px 1px;  border: 1px solid #e1e1e1; display: inline-block;  font: inherit;  line-height: 1.5em;  padding:0;  margin: 0;  -webkit-box-sizing: border-box;-moz-box-sizing: border-box;  box-sizing: border-box;  -webkit-appearance: none;  -moz-appearance: none; width:100%; padding-bottom: 12px; font-size: 16px; color: #6c6c6c; font-weight: 400;}
+select.classic {  background-image:    linear-gradient(45deg, transparent 50%, #8f8f8f 50%),    linear-gradient(135deg, #8f8f8f 50%, transparent 50%),    linear-gradient(to right, white, white);  background-position:    calc(100% - 20px) calc(1em + 2px),    calc(100% - 15px) calc(1em + 2px), 100% 0;  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;  padding:6px 6px 6px 15px;}
+.subject-text{font-size: 15px; font-weight: 500; color: #5f5f5f;}
+.sublist ul{margin: 0; padding:0 14% 0 0;  width:90%;}
+.sublist ul.baord-remov{ border: none;}
+.sublist ul li{list-style: none; font-size: 14px; color:#767676; font-weight: 400; padding:6px 15px; display: block; margin-bottom: 8px;}
+.sublist ul li.graycol{background: #ebebeb;}
+.sublist ul li.green-col{background: #7de49f; color:#fff;}
+.bord-bottom{border-bottom: 1px solid #ebebeb; padding-bottom: 15px; margin: 10px 0px 15px 0px; width: 50%; float: left; box-sizing: border-box;}
+.padd-l30{padding-left: 50px;}
+.submit-btn {border-radius: 3px;  background-color: rgb(50, 179, 226); height: 44px; font-size: 14px; font-weight: 500; color:#fff;  border:0;  margin-top: 20px; display: block;  width: 100%;}
+.submit-btn:hover{ box-shadow: 0px 0px 5px 0px rgba(0, 0, 5, 0.14); }
+.left-enroll-student h4, .grade-white-bg h4,  #edit-grade .white-wrap h4{color:#767676; font-size: 14px; padding:0; margin:0; line-height: 20px;   text-transform:none;}
+.left-enroll-student h3, #edit-grade .white-wrap h3{color:#00aeef; font-size: 16px; padding:0; margin:0; line-height: 34px;}
+
+.grdae-map{float: left; width:100%;}
+.grdae-map .heading-map{ background-color: rgb(50, 179, 226); font-size: 20px; color: #fff; border-radius: 4px 6px 0px 0px; height:60px; line-height: 60px; font-weight: 500; text-align: center; }
+.grade-white-bg {  border-radius: 0px 0px 4px 4px;  background-color: rgb(255, 255, 255);  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14); padding: 25px 25px 25px 25px; float: left; width: 100%;}
+.grade-white-bg .left-heading{float: left; display: flex; align-items: center; height: 34px;}
+.grade-white-bg .right-heading{float: right; border: 1px solid #ebebeb; height: 34px; display: flex; align-items: center; padding: 0px 10px; border-radius: 3px; cursor: pointer;}
+.grade-white-bg .right-heading span{border-right: 1px solid #ebebeb; padding: 0px 7px 0px 0px; margin-right: 7px; display: inline-block;}
+.grade-white-bg .right-heading img{opacity: .5; height: 16px; }
+.grade-white-bg .right-heading h6{font-size: 14px; color:#767676;  padding: 0; margin: 0;}
+.wrapper-gray-row{float: left; width:100%; padding-top: 30px; max-height: 445px; margin-bottom: 20px;}
+.wrapper-gray-row ul{padding: 0; margin: 0;}
+.wrapper-gray-row ul li{background: #fafafa; float: left; width: 100%; margin-bottom: 15px; border:1px solid #ebebeb; list-style: none; display: flex; align-items: center; height:48px; font-weight: 400;}
+.wrapper-gray-row ul li.deactivate{background: #ebebeb;}
+.wrapper-gray-row ul li span{display: block; position: relative; cursor: pointer; font-size: 12px; font-weight: 400; color: #797979;}
+.wrapper-gray-row ul li span img{height: 16px;    opacity: .7;}
+.left-gray{color: #454444; font-size: 15px; }
+.right-gray{color: #797979; font-size: 12px; }
+.right-gray p{padding: 0; margin: 0; line-height: normal; font-weight: 400;} 
+.right-gray p.number-txt{font-size: 18px; font-weight: 600;}
+.add-section{ border-radius: 3px;  background-color: rgb(137, 137, 137); color:#fff; font-size:14px; height: 44px; text-align: center; display: block; font-weight: 400; width:100%; border:0; margin-top: 10px; }
+.add-section:hover{background:#696767; }
+
+#edit-grade{display: none;}
+.edit-grade-wrapper{position: absolute; display: flex; justify-content: center; align-items: center; background: rgba(0, 0, 0, 0.7);     width: 100%;    height: 100%;    top: 0; }
+#edit-grade .white-wrap{ border-radius: 4px;    background-color: rgb(255, 255, 255);    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14); padding:25px; width:480px; position: relative;}
+#edit-grade .white-wrap .form-wrapper{margin: 35px 0px; color:#767676; float: left; width: 100%; }
+#edit-grade .white-wrap .form-wrapper label{font-weight: 500; color:#5f5f5f;}
+#edit-grade .white-wrap input{border: 1px solid #ebebeb; width: 100%; height: 38px; line-height: 38px; padding: 0px 12px; margin-top: 8px; }
+#edit-grade .white-wrap input:focus{border:1px solid #00aeef; outline: 1px solid #00aeef;}
+#edit-grade .white-wrap .submit-btn{float: left; width: 100%; margin: 0 0 15px 0;}
+.close-btn-pop{position: absolute; right:24px; top:24px; cursor: pointer;}
+.close-btn-pop img{width: 15px; opacity: 0.8;}
+.grade-custom{display: block; float: left; width: 100%;}
+.grade-success{display: none; float: left; width: 100%; text-align: center; padding: 50px 0px;}
+.grade-success .img-tick{float: left; width: 100%; margin-bottom: 15px;}
+.grade-success .img-tick img{width:32px;}
+#edit-grade .white-wrap .grade-success h3{font-size: 18px;}
+
+  
+
+
+
+
+
+

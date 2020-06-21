@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { GradeManagementComponent } from './grade-management/grade-management.component';
+import { CreategradeComponent } from './creategrade/creategrade.component';
 
 
 const routes: Routes = [
-  {path:"grademanagement", component:GradeManagementComponent}
+  {
+  path:"grade",component:CreategradeComponent
+}
 ];
 
 @NgModule({

@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CreategradeComponent } from './creategrade/creategrade.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CreategradeComponent
   ],
   imports: [
     BrowserModule,
